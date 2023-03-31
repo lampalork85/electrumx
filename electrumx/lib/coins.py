@@ -1022,16 +1022,9 @@ class Litecoin(Coin):
     TX_COUNT = 8908766
     TX_COUNT_HEIGHT = 1105256
     TX_PER_BLOCK = 10
-    RPC_PORT = 9332
+    RPC_PORT = 9573
     REORG_LIMIT = 800
-    PEERS = [
-        'ex.lug.gs s444',
-        'electrum-ltc.bysh.me s t',
-        'electrum-ltc.ddns.net s t',
-        'electrum-ltc.wilv.in s t',
-        'electrum.cryptomachine.com p1000 s t',
-        'electrum.ltc.xurious.com s t',
-    ]
+    PEERS = []
 
 
 class LitecoinTestnet(Litecoin):
