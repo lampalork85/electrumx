@@ -1016,7 +1016,7 @@ class Litecoin(Coin):
     P2PKH_VERBYTE = bytes.fromhex("30")
     P2SH_VERBYTES = (bytes.fromhex("32"), bytes.fromhex("05"))
     WIF_BYTE = bytes.fromhex("b0")
-    GENESIS_HASH = ('12a765e31ffd4059bada1e25190f6e98'
+    GENESIS_HASH = ('46ca17415c18e43f5292034ebf9bbd10de80a61fc6dc17180e6609f33d3b48f3'
                     'c99d9714d334efa41a195a7e7e04bfe2')
     DESERIALIZER = lib_tx.DeserializerLitecoin
     TX_COUNT = 8908766
